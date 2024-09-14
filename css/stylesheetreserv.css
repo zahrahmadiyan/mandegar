@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: 'parastoo';
+    color: rgb(30, 42, 77);
+}
+
+@font-face {
+    font-family: 'parastoo';
+    src: url('../fonts/collection-persian-web-font/parastoo-font-v1.0.0-alpha5/web/Parastoo-Bold.eot');
+    src: url('../fonts/collection-persian-web-font/parastoo-font-v1.0.0-alpha5/web/Parastoo.eot') format('FontName-opentype'),
+        url('../fonts/collection-persian-web-font/parastoo-font-v1.0.0-alpha5/web/Parastoo.woff') format('woff'),
+        url('../fonts/collection-persian-web-font/parastoo-font-v1.0.0-alpha5/web/Parastoo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+#container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #c4e5f2e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #c4e5f2;
+    padding: 20px;
+}
+
+.item-text p {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.item-form {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item-form label {
+    padding-right: 8px;
+}
+.item-form input[type="text"],
+.item-form input[type="tel"],
+.item-form input[type="email"],
+.item-form input[type="date"],
+.item-form input[type="time"],
+.item-form input[type="number"],
+.item-form textarea {
+    padding-right: 10px;
+}
+
+.item-form input,
+.item-form select,
+.item-form textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.item-form input:focus,
+.item-form select:focus,
+.item-form textarea:focus {
+    outline: none;
+}
+
+.item-form textarea {
+    resize: none;
+}
+
+.item-button {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    padding: 5px 80px;
+    font-size:medium;
+    background-color: #E1974B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #e28d39;
+    color: rgb(30, 42, 77);
+}
+
+.back-to-home {
+    padding: 5px 20px;
+    background-color: #E1974B;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-to-home:hover {
+    background-color: #e28d39;
+    color: rgb(30, 42, 77);
+}
